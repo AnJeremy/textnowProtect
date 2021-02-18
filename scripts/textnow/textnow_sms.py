@@ -36,7 +36,7 @@ class Textnow:
     #}
     #
     ## 更新配置文件
-  #for key, value in settings.items():
+    #for key, value in settings.items():
     #    profile.set_preference(key, value)
     #profile.update_preferences()
     
@@ -221,5 +221,5 @@ class Textnow:
       
     print (u'处理完毕---end')
     
-    driver.close()
+    driver.quit()
     
